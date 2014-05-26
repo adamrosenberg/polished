@@ -98,11 +98,11 @@
     height: 36px;
     line-height: 33px;
     border-radius: 4px;
-    font-weight: bold;
-    color: #444;
-    text-shadow: 0 1px 0 white;
-    background: #eff1f4;
-    background: -webkit-linear-gradient(#f7f8fa, #eff1f4);
+    font-weight: 400;
+    color: #fff;
+   
+    background: #4589E3;
+/*    background: -webkit-linear-gradient(#f7f8fa, #eff1f4);
     background: -moz-linear-gradient(#f7f8fa, #eff1f4);
     background: -ms-linear-gradient(#f7f8fa, #eff1f4);
     background: -o-linear-gradient(#f7f8fa, #eff1f4);
@@ -111,7 +111,7 @@
     -moz-box-shadow: inset 0 1px 0 white;
     -ms-box-shadow: inset 0 1px 0 white;
     -o-box-shadow: inset 0 1px 0 white;
-    box-shadow: inset 0 1px 0 white; }
+    box-shadow: inset 0 1px 0 white; */}
   .button-clear:hover {
     text-decoration: none; }
   .button-clear:active, .button-clear.active {
@@ -2806,7 +2806,7 @@ a:focus, button:focus {
       line-height: 25px;
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
   #home4 #pricing .charts {
-    margin-top: 35px; }
+    margin-top: 10px; }
     @media (max-width: 991px) {
       #home4 #pricing .charts {
         margin-top: 10px; } }
@@ -2821,7 +2821,9 @@ a:focus, button:focus {
       width: 97%;
       min-height: 315px;
       position: relative;
-      top: 37px; }
+      top: 37px; 
+      height: 510px;
+      }
       @media (max-width: 991px) {
         #home4 #pricing .charts .chart {
           float: none !important;
