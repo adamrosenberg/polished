@@ -101,7 +101,8 @@
     font-weight: 400;
     color: #fff;
    
-    background: #4589E3;
+  
+    background:linear-gradient(#5da4ff, #417bff);
 /*    background: -webkit-linear-gradient(#f7f8fa, #eff1f4);
     background: -moz-linear-gradient(#f7f8fa, #eff1f4);
     background: -ms-linear-gradient(#f7f8fa, #eff1f4);
@@ -448,7 +449,7 @@ a:focus, button:focus {
 
 #footer {
   background: #414B5B;
-  margin-top: 120px;
+  margin-top: 40px;
   padding-top: 47px;
   padding-bottom: 35px;
   -webkit-font-smoothing: antialiased; }
@@ -2654,7 +2655,8 @@ a:focus, button:focus {
         #home4 #hero .cta a {
           display: block; } }
       #home4 #hero .cta a.button {
-        border-radius: 50px;
+        border-radius: 5px;
+        border: 1px solid #3e3e3e;
         padding: 12px 36px;
         -webkit-transition: all 0.3s linear;
         -moz-transition: all 0.3s linear;
@@ -2784,7 +2786,7 @@ a:focus, button:focus {
   background: linear-gradient(top, #355069 0, #5e7a9b 100%);
   margin-top: 130px;
   padding-top: 40px;
-  padding-bottom: 55px; }
+  padding-bottom: 80px; }
   @media (max-width: 991px) {
     #home4 #pricing {
       margin-top: 40px; } }
@@ -2839,7 +2841,7 @@ a:focus, button:focus {
           width: 90% !important; } }
       #home4 #pricing .charts .chart.first {
         float: right;
-        left: 12px; }
+        /*left: 12px;*/ }
       #home4 #pricing .charts .chart.last {
         left: -12px; }
       #home4 #pricing .charts .chart.featured {
