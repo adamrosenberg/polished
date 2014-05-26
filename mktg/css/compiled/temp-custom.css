@@ -3,3 +3,8 @@
 	text-align: center;
 	padding-top:10px;
 }
+
+.col-md-12 h3
+{
+	line-height: 1.5em;	
+}

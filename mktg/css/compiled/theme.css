@@ -2695,7 +2695,7 @@ a:focus, button:focus {
     #home4 #tabs .header h3 {
       font-size: 26px;
       color: #444;
-      line-height: 25px;
+      line-height: 1.5em;
       font-weight: 300; }
     #home4 #tabs .header p {
       font-size: 16px;
@@ -2739,7 +2739,7 @@ a:focus, button:focus {
             color: #2B69A2;
             background: none; }
     #home4 #tabs .tabs-wrapper .tab-content {
-      margin-top: 60px; }
+      margin-top: 20px; }
       #home4 #tabs .tabs-wrapper .tab-content .tab-pane {
         height: 325px; }
         @media (max-width: 991px) {
