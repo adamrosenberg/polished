@@ -80,7 +80,7 @@ function oauth_session_exists() {
 
 try {
   // include the LinkedIn class
-  require_once('linkedin_3.2.0.class.php');
+  require_once('./linkedin_3.2.0.class.php');
   
   // start the session
   if(!session_start()) {
